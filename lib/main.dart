@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (ctx) => OnboardingScreen(),
-        '/home': (ctx) => HomePage(userId: 'default_user'), // userId 전달 예시
+        '/home': (ctx) => HomePage(userId: 'default_user'),
         DetailPage.routeName: (ctx) => DetailPage(),
         '/createId': (ctx) => CreateIdScreen(),
       },

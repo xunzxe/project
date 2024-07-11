@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // For hiding system UI
-import 'package:schedule/pages/create_id_screen.dart'; // Updated import
+import 'package:flutter/services.dart';
+import 'package:schedule/pages/create_id_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Hide system UI (status bar and navigation bar)
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
 
     return Scaffold(

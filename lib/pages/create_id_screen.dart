@@ -30,7 +30,6 @@ class _CreateIdScreenState extends State<CreateIdScreen> {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Navigate to HomePage and pass the entered ID
                 Navigator.of(context).pushReplacement(
                   MaterialPageRoute(
                     builder: (context) => HomePage(
